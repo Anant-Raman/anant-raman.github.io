@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anant Raman - Portfolio</title>
+    <link rel="stylesheet" href="protfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <!-- <div class="logo">AR</div> -->
+                <div class="logo">
+                    <a href="#">Anant Raman</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <!-- Particle JS Container -->
+       <div id="hero-particles-js"></div>
+    
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Anant Raman</span></h1>
+                <h2>Android Developer at PhonePe</h2>
+                <p>Building innovative solutions and bringing ideas to life</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anantramanindia/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Anant-Raman" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:anantraman.india@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="res/images/my_pic.jpg" alt="Anant Raman">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Anant Raman, a passionate Android Developer specializing in
+                        Kotlin, Jetpack Compose, and Room Database. I thrive on building efficient, scalable,
+                            and user-friendly applications with a keen eye for detail and performance.</p>
+                
+                    <p>With expertise in data-intensive applications and database migrations, I enjoy
+                        solving complex challenges, from freehand drawing in Jetpack Compose to optimizing large-scale
+                        data handling. My adaptability helps me quickly learn new technologies and stay updated with industry trends.
+                    </p>
+                
+                    <p>Beyond coding, I contribute to open-source projects and believe in continuous learning. I enjoy collaborating
+                        with dynamic teams to create seamless digital experiences. Let's connect and build something
+                        amazing together!</p>
+
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>anantraman.india@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Available for opportunities</span>
+                        </div>
+                    </div>
+                    <button class="btn primary-btn" onclick="downloadFile('res/files/Resume-Anant.pdf')"> Download CV </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <!-- Particle JS Container -->
+        <div id="exp-particles-js"></div>
+            <div class="container">
+                <h2 class="section-title-dark">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Software Developer</h3>
+                            <h4>PhonePe</h4>
+                            <p class="timeline-date">2022 - Present</p>
+                            <p>Workling as an Android Developer in Recharge and BillPayment Pod. Build and managed the Credit Card Bill Payment for PhonePe, handling around 300k daily bill payments with and ATV of Rs 18k. During the time I worked on various projects related to Rechare and BillPayments and across the organisation!! </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Senior Software Developer</h3>
+                            <h4>GlobalLogic</h4>
+                            <p class="timeline-date">2019 - 2022</p>
+                            <p>Assisted in the development of web applications, participated in code reviews, and implemented UI/UX designs. Gained hands-on experience with various programming languages and frameworks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div id="edu-particles-js"></div>
+        <div class="container">
+            <h2 class="section-title-dark">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology (B.Tech)</h3>
+                        <h4>Institute of Engineering and Technology, Lucknow</h4>
+                        <p class="timeline-date">2016 - 2020</p>
+                        <p>Studied core computer science subjects including Data Structures, Algorithms, Database Management, and Software Engineering.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3></h3>
+                        <h4>W.H Smith Memorial School, Varanasi</h4>
+                        <p class="timeline-date">2016 - 2020</p>
+                        <p>Science | School Captain | Interact President</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">Kotlin</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Software Engineering</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">Solution Architecture</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Database Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">UI/UX</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">Git</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Project Planning and Delivery</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 900%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Problem Solving</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/res/images/phonepe.webp" alt="PhonePe">
+                    </div>
+                    <div class="project-content">
+                        <h3>PhonePe</h3>
+                        <p>Worked as An android Developer. India's most popular payments app with more than 60Cr+ registered users</p>
+                    
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>Jetpack Compose</span>
+                            <span>MVVM</span>
+               
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.phonepe.app&hl=en_IN" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/res/images/korsvip.webp" alt="korsvip">
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce App | KORS VIP</h3>
+                        <p>Fully functioning E commerce app for Michael Kors. Worked as an Android Deveoper</p>
+                    
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>Jetpack Compose</span>
+               
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.michaelKors.android&hl=en_IN" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/res/images/cegid.webp" alt="Cegid Flow App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Cegid Flow</h3>
+                        <p>A mobile application for financial management for a renowned French Company, Cegid!!</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.cegid.flow&hl=en_IN" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/res/images/portfolio.png" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive personal portfolio website showcasing skills, projects, and professional experience.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/res/images/mobi3.jpg" alt="MobiLedger">
+                    </div>
+                    <div class="project-content">
+                        <h3>MobiLedger</h3>
+                        <p>A personal finance mamagement apps that lets you track your expense, and plan your budget.</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>UI/UX</span>
+                            <span>Clean Architecture</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anant-Raman/MobiLedger" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="/res/images/covid.jpg" alt="Covid 19">
+                    </div>
+                    <div class="project-content">
+                        <h3>Covid 19</h3>
+                        <p>A mobile application for live tracking of global Covid 19 cases, news, precautionary guidelines and helpline numbers for every part in the country!</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anant-Raman/Covid-19-Support" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>anantraman.india@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9519340677</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Social Profiles</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/anantramanindia/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Anant-Raman" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/anantraman" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Anant Raman. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/anantramanindia/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Anant-Raman" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:anant.ramani@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
